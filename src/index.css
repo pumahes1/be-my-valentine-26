@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "LoveFont";
+  src: url("./assets/fonts/Courier-New-W07-Regular.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.flowers-background {
+  background-image: 
+    url("./assets/flowers.gif"),
+    linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
+    url("./assets/background.jpg");
+  background-size: cover, cover, 450%;
+  background-position: center, center,center;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-attachment: fixed, fixed, fixed;
+  min-height: 100vh;
+}
+
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
